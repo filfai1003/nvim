@@ -51,6 +51,5 @@ Feel free to try it out and let me know what you think!
 ## TODO
 - Harpoon
 - Undo tree
-- Copilot
 - Preconfigured support for LSP, DAP, Linter, Formatter for some languages
-
+- Git
