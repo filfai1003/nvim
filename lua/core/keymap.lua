@@ -44,7 +44,6 @@ wk.add({
   {"<F11>", function() require("dap").step_into() end, desc = "Step Into"},
   {"<F12>", function() require("dap").terminate() end, desc = "Terminate Debug"},
 
-  -- TODO: confirm completion <CR>
-  -- TODO: next completion down arrow
-  -- TODO: previous completion up arrow
+  -- COPILOT CHAT
+  {"<leader>c", "<cmd>CopilotChat<cr>", desc = "Open Chat"},
 })

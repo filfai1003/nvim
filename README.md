@@ -43,7 +43,7 @@ Assicurati di avere queste dipendenze installate prima di avviare Neovim per la 
 To install this configuration, run:
 
 ```sh
-git clone <repo-url> ~/.config/nvim
+git clone https://github.com/filfai1003/nvim ~/.config/nvim
 ```
 
 Feel free to try it out and let me know what you think!
