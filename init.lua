@@ -18,6 +18,8 @@ vim.opt.shiftround    = true
 vim.opt.expandtab     = true
 vim.opt.updatetime    = 1
 
+vim.opt.clipboard = "unnamedplus"
+
 -- PLUGIN MANAGER: lazy.nvim bootstrap
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then

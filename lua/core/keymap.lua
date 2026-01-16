@@ -16,6 +16,7 @@ wk.add({
   {"<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live Grep"},
   {"<leader>fb", "<cmd>Telescope buffers<cr>", desc = "Buffers"},
   {"<leader>fh", "<cmd>Telescope help_tags<cr>", desc = "Help Tags"},
+  {"<leader>e", "<cmd>Telescope file_browser<cr>", desc = "File Explorer"},
 
   -- MASON
   {"<leader>M", "<cmd>Mason<cr>", desc = "Mason"},
