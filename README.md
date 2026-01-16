@@ -47,7 +47,3 @@ git clone https://github.com/filfai1003/nvim ~/.config/nvim
 ```
 
 Feel free to try it out and let me know what you think!
-
-## TODO
-- Preconfigured support for LSP, DAP, Linter, Formatter for some languages
-- Git

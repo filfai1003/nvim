@@ -38,13 +38,6 @@ wk.add({
   -- TERMINAL
   {"<C-t>", "<cmd>ToggleTerm<cr>", desc = "Toggle Terminal", mode = {"n", "t"}},
 
-  -- DEBUG (DAP)
-  {"<F8>", function() require("dap").continue() end, desc = "Run / Continue"},
-  {"<F9>", function() require("dap").toggle_breakpoint() end, desc = "Toggle Breakpoint"},
-  {"<F10>", function() require("dap").step_over() end, desc = "Step Over"},
-  {"<F11>", function() require("dap").step_into() end, desc = "Step Into"},
-  {"<F12>", function() require("dap").terminate() end, desc = "Terminate Debug"},
-
   -- COPILOT CHAT
   {"<leader>c", "<cmd>CopilotChat<cr>", desc = "Open Chat"},
 
