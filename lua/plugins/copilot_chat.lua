@@ -5,7 +5,6 @@ return {
     "nvim-lua/plenary.nvim",
   },
   config = function()
-    -- Copilot engine SOLO chat
     require("copilot").setup({
       suggestion = { enabled = false },
       panel = { enabled = false },

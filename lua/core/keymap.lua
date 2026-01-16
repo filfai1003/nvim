@@ -46,4 +46,17 @@ wk.add({
 
   -- COPILOT CHAT
   {"<leader>c", "<cmd>CopilotChat<cr>", desc = "Open Chat"},
+
+  -- HARPOON
+  {"<leader>h", name = "Harpoon"},
+  {"<leader>hh", function() require("harpoon.mark").add_file() end, desc = "Harpoon Add File"},
+  {"<leader>hr", function() require("harpoon.mark").rm_file() end, desc = "Harpoon Remove File"},
+  {"<leader>hm", function() require("harpoon.ui").toggle_quick_menu() end, desc = "Harpoon Quick Menu"},
+  {"<C-h>", function() require("harpoon.ui").nav_file(1) end, desc = "Harpoon Go to File 1"},
+  {"<C-j>", function() require("harpoon.ui").nav_file(2) end, desc = "Harpoon Go to File 2"},
+  {"<C-k>", function() require("harpoon.ui").nav_file(3) end, desc = "Harpoon Go to File 3"},
+  {"<C-l>", function() require("harpoon.ui").nav_file(4) end, desc = "Harpoon Go to File 4"},
+
+  -- UNDO TREE
+  { "<leader>u", vim.cmd.UndotreeToggle, desc = "Toggle UndoTree" },
 })
